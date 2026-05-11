@@ -1,0 +1,9 @@
+flowchart TD
+  A[Push / Pull Request] --> B[Checkout code]
+  B --> C[Install dependencies]
+  C --> D[Compile / Syntax check]
+  D --> E[Run tests (manage.py test)]
+  E --> F[Generate coverage report]
+  F --> G[Upload artifact / Store report]
+  style A fill:#f9f,stroke:#333,stroke-width:1px
+  style G fill:#bfb,stroke:#333,stroke-width:1px
